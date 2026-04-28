@@ -23,9 +23,7 @@ O dashboard foi construído com base na tabela `financials`, disponibilizada com
 ├── 📊 dio-powerbi-financial-dashboard.pbix      # Arquivo Power BI Desktop
 ├── 📂 data/
 │   └── 📄 tabela_financials_projeto.xlsx        # Base de dados utilizada
-├── 📂 000-Midia_e_Anexo/
-│   ├── 🖼️ 2026-04-28-14-39-59.png               # Captura de tela — Home Page
-│   └── 🖼️ 2026-04-28-14-41-34.png               # Captura de tela — Página Principal
+├── 📂 000-Midia_e_Anexos/                       # Capturas de telas do Power BI
 └── 📝 README.md
 ```
 
@@ -191,7 +189,7 @@ Um **Treemap** (ou mapa geográfico alternável) apresenta a **distribuição ge
 ### 📅 Exemplo 2 - Intervalo: 01/10/2014 a 01/12/2014 (Q4 2014 — Pico de Performance)
 
 <p align="center">
-  <img src="000-Midia_e_Anexos/2026-04-28-15-04-49.png" alt="" width="1024">
+  <img src="000-Midia_e_Anexos/2026-04-28-15-10-53.png" alt="" width="480">
 </p>
 
 **Análise:** O quarto trimestre de 2014 é o período de maior rentabilidade de todo o dataset — margem de lucro de 14,8%, a mais alta registrada, concentrando 29,76 Mi em vendas em apenas 3 meses. A análise deste intervalo revela dinâmicas opostas ao semestre anterior: Canada ultrapassa os EUA como principal mercado (7,1 Mi vs. ausência do top 3 americano), e a Europa domina com França e Alemanha em destaque — sinal de sazonalidade geográfica relevante. No mix de produtos, Carretera sobe do último para o 2º lugar (5,9 Mi), indicando forte demanda sazonal por este item. A concentração de Government no topo se acentua, abrindo vantagem sobre Small Business — padrão típico de compras governamentais de fim de exercício fiscal. Este é o intervalo que melhor justifica estratégias de reforço de estoque e expansão europeia para o Q4.
