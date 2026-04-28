@@ -196,7 +196,7 @@ Um **Treemap** (ou mapa geográfico alternável) apresenta a **distribuição ge
 
 ---
 
-## ⚙️ Como Reproduzir o Projeto
+## Como Reproduzir o Projeto
 
 ### Pré-requisitos
 
@@ -215,7 +215,7 @@ Um **Treemap** (ou mapa geográfico alternável) apresenta a **distribuição ge
 
 ---
 
-## 🎨 Design e Identidade Visual
+## Design e Identidade Visual
 
 | Elemento | Especificação |
 |---|---|
@@ -227,7 +227,7 @@ Um **Treemap** (ou mapa geográfico alternável) apresenta a **distribuição ge
 
 ---
 
-## 📚 Conceitos de Power BI Aplicados
+## Conceitos de Power BI Aplicados
 
 - ✅ **Importação de dados** via Excel (Pasta de Trabalho do Excel)
 - ✅ **Criação de medidas DAX** (SUM, contagens)
@@ -241,7 +241,7 @@ Um **Treemap** (ou mapa geográfico alternável) apresenta a **distribuição ge
 
 ---
 
-## 🏆 Resultado do Desafio
+## Resultado do Desafio
 
 O desafio propunha atualizar um relatório financeiro com foco na **experiência do usuário**, seguindo boas práticas de design de dashboards no Power BI. Os principais entregáveis foram:
 
