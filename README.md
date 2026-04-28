@@ -90,12 +90,6 @@ A primeira página funciona como uma **tela de apresentação e navegação** pa
 
 A página principal concentra todas as **visualizações analíticas** do relatório. É composta por um cabeçalho com KPIs e quatro blocos de visualização.
 
-<p align="center">
-  <img src="000-Midia_e_Anexos/2026-04-28-14-41-34.png" alt="" width="1024">
-</p>
-
----
-
 #### 🔢 Bloco 1 — KPIs (Cartões de Resumo)
 
 Na parte superior da página, cinco cartões apresentam os **indicadores financeiros globais** do período selecionado:
@@ -110,8 +104,6 @@ Na parte superior da página, cinco cartões apresentam os **indicadores finance
 
 > 📌 Os cartões usam o visual **Card** nativo do Power BI, com formatação de número abreviado (Mi = Milhões).
 
----
-
 #### 📅 Filtro de Período — Segmentação de Data
 
 No canto superior direito da página, há um **slicer de intervalo de datas** que permite ao usuário filtrar todo o relatório por um período personalizado.
@@ -121,16 +113,6 @@ No canto superior direito da página, há um **slicer de intervalo de datas** qu
 - No exemplo: período de `01/09/2013` a `01/12/2014`
 
 Todos os visuais da página respondem dinamicamente ao filtro de data.
-
-##### 📅 Intervalo 1 — 01/01/2014 a 30/06/2014 (1º Semestre de 2014)
-
-<p align="center">
-  <img src="000-Midia_e_Anexos/2026-04-28-14-51-03.png" alt="" width="1024">
-</p>
-
-**Análise:** O primeiro semestre de 2014 representa o período de operação regular e base de comparação do negócio — 42,19 Mi em vendas com margem de 13,9%. O que torna este recorte estrategicamente revelador é o equilíbrio incomum entre segmentos: Government (17,3 Mi) e Small Business (16,5 Mi) estão quase empatados, algo que não se repete no restante do dataset. Geograficamente, os Estados Unidos lideram (9,4 Mi), seguidos de perto por França e Canadá — padrão distinto do segundo semestre. Este intervalo funciona como o "estado normal" do negócio: base sólida, sem picos artificiais de fim de ano, ideal para avaliar produtos e mercados com desempenho sustentável. Paseo domina com folga (13,7 Mi) e Amarilla aparece em 2º lugar — posição que perde no Q4.
-
----
 
 #### 📉 Bloco 2 — Vendas por Período (Gráfico de Área)
 
@@ -142,8 +124,6 @@ Um gráfico de área exibe a **evolução das vendas ao longo dos meses do ano**
 - **Destaque**: Pico de vendas visível em **agosto**, com forte recuperação em **outubro/novembro**
 
 > 💡 O gráfico de área é preferível ao de linhas quando se deseja enfatizar o **volume acumulado** ao longo do tempo.
-
----
 
 #### 📊 Bloco 3 — Vendas x Segmento (Gráfico de Barras Horizontal)
 
@@ -160,8 +140,6 @@ O gráfico de barras horizontais permite comparar rapidamente o desempenho de ve
   5. Channel Partners — ~1 Mi
 
 > O visual inclui dois botões de alternância (**Bar Chart** / **Pie Chart**), permitindo ao usuário trocar entre visualizações — recurso de **bookmarks** ou **selection panel** do Power BI.
-
----
 
 #### 🏷️ Bloco 4 — Vendas por Produto (Barras Horizontais com Gradiente)
 
@@ -180,8 +158,6 @@ Este gráfico apresenta o **desempenho de cada produto** em termos de receita de
 
 > O **Paseo** se destaca como o produto com maior receita, equivalendo à soma aproximada dos dois produtos seguintes.
 
----
-
 #### 🗺️ Bloco 5 — Mapa por País (Treemap / Map Chart)
 
 Um **Treemap** (ou mapa geográfico alternável) apresenta a **distribuição geográfica das vendas** por país.
@@ -197,6 +173,24 @@ Um **Treemap** (ou mapa geográfico alternável) apresenta a **distribuição ge
   - 🇲🇽 Mexico
 
 > O Treemap é eficiente para **comparação proporcional** entre muitos países simultaneamente. O botão de alternância para _Map Chart_ oferece contexto geográfico espacial.
+
+## Exemplos e Análies
+
+### 📅 Exemplo 1 - Intervalo: 01/01/2014 a 30/06/2014 (1º Semestre de 2014)
+
+<p align="center">
+  <img src="000-Midia_e_Anexos/2026-04-28-14-51-03.png" alt="" width="1024">
+</p>
+
+**Análise:** O primeiro semestre de 2014 representa o período de operação regular e base de comparação do negócio — 42,19 Mi em vendas com margem de 13,9%. O que torna este recorte estrategicamente revelador é o equilíbrio incomum entre segmentos: Government (17,3 Mi) e Small Business (16,5 Mi) estão quase empatados, algo que não se repete no restante do dataset. Geograficamente, os Estados Unidos lideram (9,4 Mi), seguidos de perto por França e Canadá — padrão distinto do segundo semestre. Este intervalo funciona como o "estado normal" do negócio: base sólida, sem picos artificiais de fim de ano, ideal para avaliar produtos e mercados com desempenho sustentável. Paseo domina com folga (13,7 Mi) e Amarilla aparece em 2º lugar — posição que perde no Q4.
+
+### 📅 Exemplo 2 - Intervalo: 01/10/2014 a 31/12/2014 (Q4 2014 — Pico de Performance)
+
+<p align="center">
+  <img src="000-Midia_e_Anexos/2026-04-28-15-04-49.png" alt="" width="1024">
+</p>
+
+**Análise:** O quarto trimestre de 2014 é o período de maior rentabilidade de todo o dataset — margem de lucro de 14,8%, a mais alta registrada, concentrando 29,76 Mi em vendas em apenas 3 meses. A análise deste intervalo revela dinâmicas opostas ao semestre anterior: Canada ultrapassa os EUA como principal mercado (7,1 Mi vs. ausência do top 3 americano), e a Europa domina com França e Alemanha em destaque — sinal de sazonalidade geográfica relevante. No mix de produtos, Carretera sobe do último para o 2º lugar (5,9 Mi), indicando forte demanda sazonal por este item. A concentração de Government no topo se acentua, abrindo vantagem sobre Small Business — padrão típico de compras governamentais de fim de exercício fiscal. Este é o intervalo que melhor justifica estratégias de reforço de estoque e expansão europeia para o Q4.
 
 ---
 
