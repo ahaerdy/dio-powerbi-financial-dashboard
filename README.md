@@ -91,7 +91,7 @@ A primeira página funciona como uma **tela de apresentação e navegação** pa
 A página principal concentra todas as **visualizações analíticas** do relatório. É composta por um cabeçalho com KPIs e quatro blocos de visualização.
 
 <p align="center">
-  <img src="000-Midia_e_Anexos/2026-04-28-14-41-34.png" alt="" width="480">
+  <img src="000-Midia_e_Anexos/2026-04-28-14-41-34.png" alt="" width="1024">
 </p>
 
 ---
@@ -125,7 +125,7 @@ Todos os visuais da página respondem dinamicamente ao filtro de data.
 ##### 📅 Intervalo 1 — 01/01/2014 a 30/06/2014 (1º Semestre de 2014)
 
 <p align="center">
-  <img src="000-Midia_e_Anexos/2026-04-28-14-51-03.png" alt="" width="480">
+  <img src="000-Midia_e_Anexos/2026-04-28-14-51-03.png" alt="" width="1024">
 </p>
 
 **Análise:** O primeiro semestre de 2014 representa o período de operação regular e base de comparação do negócio — 42,19 Mi em vendas com margem de 13,9%. O que torna este recorte estrategicamente revelador é o equilíbrio incomum entre segmentos: Government (17,3 Mi) e Small Business (16,5 Mi) estão quase empatados, algo que não se repete no restante do dataset. Geograficamente, os Estados Unidos lideram (9,4 Mi), seguidos de perto por França e Canadá — padrão distinto do segundo semestre. Este intervalo funciona como o "estado normal" do negócio: base sólida, sem picos artificiais de fim de ano, ideal para avaliar produtos e mercados com desempenho sustentável. Paseo domina com folga (13,7 Mi) e Amarilla aparece em 2º lugar — posição que perde no Q4.
