@@ -90,6 +90,10 @@ A primeira página funciona como uma **tela de apresentação e navegação** pa
 
 A página principal concentra todas as **visualizações analíticas** do relatório. É composta por um cabeçalho com KPIs e quatro blocos de visualização.
 
+<p align="center">
+  <img src="000-Midia_e_Anexos/2026-04-28-14-41-34.png" alt="" width="1024">
+</p>
+
 #### 🔢 Bloco 1 — KPIs (Cartões de Resumo)
 
 Na parte superior da página, cinco cartões apresentam os **indicadores financeiros globais** do período selecionado:
