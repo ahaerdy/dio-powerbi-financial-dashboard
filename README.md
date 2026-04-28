@@ -188,7 +188,7 @@ Um **Treemap** (ou mapa geográfico alternável) apresenta a **distribuição ge
 
 **Análise:** O primeiro semestre de 2014 representa o período de operação regular e base de comparação do negócio — 42,19 Mi em vendas com margem de 13,9%. O que torna este recorte estrategicamente revelador é o equilíbrio incomum entre segmentos: Government (17,3 Mi) e Small Business (16,5 Mi) estão quase empatados, algo que não se repete no restante do dataset. Geograficamente, os Estados Unidos lideram (9,4 Mi), seguidos de perto por França e Canadá — padrão distinto do segundo semestre. Este intervalo funciona como o "estado normal" do negócio: base sólida, sem picos artificiais de fim de ano, ideal para avaliar produtos e mercados com desempenho sustentável. Paseo domina com folga (13,7 Mi) e Amarilla aparece em 2º lugar — posição que perde no Q4.
 
-### 📅 Exemplo 2 - Intervalo: 01/10/2014 a 31/12/2014 (Q4 2014 — Pico de Performance)
+### 📅 Exemplo 2 - Intervalo: 01/10/2014 a 01/12/2014 (Q4 2014 — Pico de Performance)
 
 <p align="center">
   <img src="000-Midia_e_Anexos/2026-04-28-15-04-49.png" alt="" width="1024">
