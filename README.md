@@ -23,7 +23,7 @@ O dashboard foi construído com base na tabela `financials`, disponibilizada com
 ├── 📊 dio-powerbi-financial-dashboard.pbix      # Arquivo Power BI Desktop
 ├── 📂 data/
 │   └── 📄 tabela_financials_projeto.xlsx        # Base de dados utilizada
-├── 📂 000-Midia_e_Anexos/                       # Capturas de telas do Power BI
+├── 📂 000-Midia_e_Anexos/                       # Capturas de telas
 └── 📝 README.md
 ```
 
