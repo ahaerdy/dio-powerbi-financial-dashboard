@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto é a entrega do **Desafio 01 do Módulo 9** da formação **NTT DATA – Engenharia de Dados com Python** na plataforma DIO. O objetivo foi criar um **Dashboard Gerencial Financeiro** no Power BI voltado para a tomada de decisões estratégicas, com foco em experiência do usuário, clareza visual e interatividade.
 
@@ -20,12 +20,12 @@ O dashboard foi construído com base na tabela `financials`, disponibilizada com
 
 ```
 📁 dio-powerbi-financial-dashboard/
-├── 📊 financial_dashboard.pbix       # Arquivo Power BI Desktop
+├── 📊 dio-powerbi-financial-dashboard.pbix      # Arquivo Power BI Desktop
 ├── 📂 data/
-│   └── 📄 tabela_financials_projeto.xlsx  # Base de dados utilizada
-├── 📂 assets/
-│   ├── 🖼️ screenshot_homepage.png    # Captura de tela — Home Page
-│   └── 🖼️ screenshot_principal.png   # Captura de tela — Página Principal
+│   └── 📄 tabela_financials_projeto.xlsx        # Base de dados utilizada
+├── 📂 000-Midia_e_Anexo/
+│   ├── 🖼️ 2026-04-28-14-39-59.png               # Captura de tela — Home Page
+│   └── 🖼️ 2026-04-28-14-41-34.png               # Captura de tela — Página Principal
 └── 📝 README.md
 ```
 
@@ -70,7 +70,9 @@ O relatório foi desenvolvido com **2 páginas** no Power BI Desktop, com identi
 
 A primeira página funciona como uma **tela de apresentação e navegação** para o relatório. Ela foi projetada para dar ao usuário uma entrada visual clara antes de acessar os dados.
 
-![Home Page do Dashboard](assets/screenshot_homepage.png)
+<p align="center">
+  <img src="000-Midia_e_Anexos/2026-04-28-14-39-59.png" alt="" width="1024">
+</p>
 
 **Elementos da Home Page:**
 - **Logo** da plataforma DIO no canto superior esquerdo
@@ -88,7 +90,9 @@ A primeira página funciona como uma **tela de apresentação e navegação** pa
 
 A página principal concentra todas as **visualizações analíticas** do relatório. É composta por um cabeçalho com KPIs e quatro blocos de visualização.
 
-![Página Principal — Sales Report](assets/screenshot_principal.png)
+<p align="center">
+  <img src="000-Midia_e_Anexos/2026-04-28-14-41-34.png" alt="" width="480">
+</p>
 
 ---
 
@@ -118,6 +122,14 @@ No canto superior direito da página, há um **slicer de intervalo de datas** qu
 
 Todos os visuais da página respondem dinamicamente ao filtro de data.
 
+##### 📅 Intervalo 1 — 01/01/2014 a 30/06/2014 (1º Semestre de 2014)
+
+<p align="center">
+  <img src="000-Midia_e_Anexos/2026-04-28-14-51-03.png" alt="" width="480">
+</p>
+
+**Análise:** O primeiro semestre de 2014 representa o período de operação regular e base de comparação do negócio — 42,19 Mi em vendas com margem de 13,9%. O que torna este recorte estrategicamente revelador é o equilíbrio incomum entre segmentos: Government (17,3 Mi) e Small Business (16,5 Mi) estão quase empatados, algo que não se repete no restante do dataset. Geograficamente, os Estados Unidos lideram (9,4 Mi), seguidos de perto por França e Canadá — padrão distinto do segundo semestre. Este intervalo funciona como o "estado normal" do negócio: base sólida, sem picos artificiais de fim de ano, ideal para avaliar produtos e mercados com desempenho sustentável. Paseo domina com folga (13,7 Mi) e Amarilla aparece em 2º lugar — posição que perde no Q4.
+
 ---
 
 #### 📉 Bloco 2 — Vendas por Período (Gráfico de Área)
@@ -141,7 +153,7 @@ O gráfico de barras horizontais permite comparar rapidamente o desempenho de ve
 - **Eixo X**: Soma de Vendas (`Sales`)
 - **Visual**: Gráfico de barras clusterizado horizontal
 - **Ranking observado** (período de exemplo):
-  1. 🥇 Government — ~50 Mi
+  1. 🥇 Government — ~ 50 Mi
   2. 🥈 Small Business — ~30 Mi
   3. 🥉 Enterprise — ~19 Mi
   4. Midmarket — ~5 Mi
